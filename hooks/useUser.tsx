@@ -5,7 +5,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { Subscription, UserDetails } from "@/types";
 
 
-type UserContextType={
+type UserContextType = {
     accessToken: string | null;
     user: User | null;
     userDetails: UserDetails | null;
