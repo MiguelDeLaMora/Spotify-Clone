@@ -3,7 +3,7 @@
 import uniqid from "uniqid";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { useState } from "react";
-import { toast } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 
 import useUploadModal from "@/hooks/useUploadModal";

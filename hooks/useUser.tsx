@@ -6,6 +6,7 @@ import { Subscription, UserDetails } from "@/types";
 
 
 type UserContextType = {
+    [x: string]: any;
     accessToken: string | null;
     user: User | null;
     userDetails: UserDetails | null;
@@ -89,4 +90,4 @@ export const useUser = () => {
     }
 
     return context;
-}
+};
