@@ -11,7 +11,7 @@ import { useEffect } from "react";
 const AuthModal = () => {
     const supabaseClient = useSupabaseClient();
     const router = useRouter();
-    const {session} = useSessionContext();
+    const { session } = useSessionContext();
     const { onClose, isOpen } = useAuthModal();
 
     useEffect (() => {

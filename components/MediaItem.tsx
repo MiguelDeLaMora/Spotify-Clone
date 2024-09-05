@@ -40,7 +40,7 @@ const handleClick = () => {
         >
             <div
             className="
-            reltaive
+            relative
             rounded-md
             min-h-[48px]
             min-w-[48px]
@@ -48,7 +48,7 @@ const handleClick = () => {
             ">
                 <Image
                 fill
-                src={imageUrl || 'images/liked.png'}
+                src={imageUrl || '/images/liked.png'}
                 alt="Media Item"
                 className="object-cover"
                 />
@@ -59,7 +59,7 @@ const handleClick = () => {
                     {data.title}
                 </p>
                 <p className="text-neutral-400 text-sm truncate">
-                    {data.author}
+                    By {data.author}
                 </p>
 
             </div>
